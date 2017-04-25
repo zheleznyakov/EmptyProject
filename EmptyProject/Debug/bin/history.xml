@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g2 -Map=EmptyProject.map -O0 --gc-sections -LD:/git projects/EmptyProject -TD:/git projects/EmptyProject/stm32f103c8tx_flash.ld -g">
+      <target file="EmptyProject.elf" lastModified="15ba4228b39">
+         <source file="..\obj\stm32f1xx_hal_dma.o" lastModified="15ba42138a8"/>
+         <source file="..\obj\system_stm32f1xx.o" lastModified="15ba4213621"/>
+         <source file="..\obj\stm32f1xx_hal_flash_ex.o" lastModified="15ba4213a04"/>
+         <source file="..\obj\stm32f1xx_hal_cortex.o" lastModified="15ba42135d3"/>
+         <source file="..\obj\stm32f1xx_hal_gpio.o" lastModified="15ba421382a"/>
+         <source file="..\obj\stm32f1xx_hal_tim_ex.o" lastModified="15ba4213a61"/>
+         <source file="..\obj\stm32f1xx_hal_rcc_ex.o" lastModified="15ba42133a8"/>
+         <source file="..\obj\stm32f1xx_hal.o" lastModified="15ba421348a"/>
+         <source file="..\obj\stm32f1xx_hal_gpio_ex.o" lastModified="15ba4213555"/>
+         <source file="..\obj\stm32f1xx_it.o" lastModified="15ba42134ee"/>
+         <source file="..\obj\startup_stm32f103xb.o" lastModified="15ba4213735"/>
+         <source file="..\obj\main.o" lastModified="15ba4213725"/>
+         <source file="..\obj\stm32f1xx_hal_msp.o" lastModified="15ba421390b"/>
+         <source file="..\obj\stm32f1xx_hal_flash.o" lastModified="15ba42137ba"/>
+         <source file="..\obj\stm32f1xx_hal_tim.o" lastModified="15ba4213969"/>
+         <source file="..\obj\stm32f1xx_hal_pwr.o" lastModified="15ba421341b"/>
+         <source file="..\obj\stm32f1xx_hal_rcc.o" lastModified="15ba42136bf"/>
+      </target>
+   </processor>
+</history>
